@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+  }
+  h1 {
+    
+    text-align: center;
+  }
+  body {
+      margin: 0;
+      font-family: sans-serif;
+      background-image:url(../css/gira2.jpg);
+      width: 100%;
+      height:100%vh;
+      background-size: 1500px 850px;
+  
+  }
+
+ 
+
+  .menu ul {
+      margin: 0;
+      list-style: none;
+      padding: 0;
+      display: flex;
+      width: 100%;
+      background-color:rgba(0, 191, 255, 0.945);
+    }
+
+
+  .menu li {
+      text-align: center;
+      flex-grow: 1;
+  }
+
+  .menu li a {
+      display: block;
+      padding: 15px 20px;
+      color: #fff;
+      text-decoration: none;
+  }
+
+ .menu li:hover {
+     background: rgba(0, 0, 0, 0.2);
+
+ }
+  
+  header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 15px 15px;
+  }
+  
+ #main-container {
+   margin: 40px auto;
+   width: 600px;
+ }
+
+ table {
+  background-image: linear-gradient(to bottom, rgba(234, 235, 205, 0.897), rgba(240, 236, 4, 0.664));
+   text-align: left;
+   width: 100%;
+ }
+ 
+ td, th{
+   padding: 16px;
+ }
+  
+
+  
